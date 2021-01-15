@@ -43,3 +43,13 @@ The neuralCF strategy on Data\_churn
 The neuralCF strategy on Data\_edm
    * python3 ../RecExepriments/NeuralCF/EDMBaselineNCF.py
 
+#### The influence of delta
+Prepare the data
+   * python3 ../RecExepriments/CurveNeuralCF/dataPreprocessEDM.py
+
+Train and save an neuralCF model
+   * python3 ../RecExepriments/CurveNeuralCF/baselineNCF.py
+
+Load the model and predict with different delta based on the EDM mechanism
+   * python3 ../RecExepriments/CurveNeuralCF/loadAndPredict.py
+
